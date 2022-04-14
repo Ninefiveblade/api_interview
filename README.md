@@ -18,5 +18,5 @@ chat_id_for_error = "chat_id_for error""  укажите chat_id, куда бу�
 chat_id = "chat_id"  укажите chat_id для переотправки сообщений.
 
 В вашем виртуальном окружениии экспортируйте токены:
-export TOKEN: "VK_TOKEN"
-export TELEGRAM_TOKEN: "TELEGRAM_TOKEN"
+export TOKEN="VK_TOKEN"
+export TELEGRAM_TOKEN="TELEGRAM_TOKEN"
