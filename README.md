@@ -5,8 +5,18 @@
 через API Telegram
 
 Использование:
-pip install -r requirements.txt
+
+В папке проекта:
+
+python3 -m venv venv
 source venv/bin/activate
-in your env/venv:
-export TOKEN:
-export TELEGRAM_TOKEN
+pip install -r requirements.txt
+
+В скрипте:
+
+chat_id_for_error = "chat_id_for error""  укажите chat_id, куда будут приходить сообщения.
+chat_id = "chat_id"  укажите chat_id для переотправки сообщений.
+
+В вашем виртуальном окружениии экспортируйте токены:
+export TOKEN: "VK_TOKEN"
+export TELEGRAM_TOKEN: "TELEGRAM_TOKEN"
